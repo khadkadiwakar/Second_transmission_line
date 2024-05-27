@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+  color: #333333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FF6B6B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF4D4D;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.gmr-box {
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  input[type="number"],
+  input[type="text"],
+  button {
+    font-size: 14px;
+  }
+}
