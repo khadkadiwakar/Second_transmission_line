@@ -38,6 +38,7 @@ function calculateParameters() {
         document.getElementById('gmrInput').style.display = 'block';
     } else {
         resultText += `<br><br>Conductor IS REJECTED: ${conductorName}`;
+        resultText += '<br><br>The fluctuation shall not be allowed for more than ten percent in standard volt mentioned in ELECTRICITY REGULATION 2050 IN 42 NUMBER.';
         document.getElementById('gmrInput').style.display = 'none';
         document.getElementById('inductanceCapacitance').style.display = 'none';
     }
